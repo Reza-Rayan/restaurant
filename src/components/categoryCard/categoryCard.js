@@ -3,7 +3,7 @@ import './categoryCard.css'
 import { Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-const CategoryCard = ({ image, name, price }) => {
+const CategoryCard = ({ image, name, price, productsLinks }) => {
     return (
         <Row className='categoryCard mt-3 p-2  mx-auto'>
 

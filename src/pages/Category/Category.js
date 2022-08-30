@@ -22,19 +22,19 @@ const Category = () => {
   })
   return (
     <div>
-      <Row>
+      <Row className='w-100'>
         <HeaderTitle headerTitle='دسته بندی منو' className="menu-title container mt-3" />
 
         {categoriesCards}
       </Row>
       <div className='text-center mx-auto mt-5'>
-        <Link to='/' className='btn backBtn px-4'>بازگشت به قبل
+        <Link to='/' className='btn backBtn px-4 py-2 '>بازگشت به قبل
           <img src={arrow} width={20} height={10} />
         </Link>
       </div>
-      <Row>
+      <div className='w-100'>
         <Footer />
-      </Row>
+      </div>
     </div>
 
   )

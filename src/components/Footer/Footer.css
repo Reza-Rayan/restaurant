@@ -1,5 +1,11 @@
 .footer{
     background-color: #665573;
-    border-radius: 20px;
     box-shadow: 0 -4px 6px #eeeeee20;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.icons :hover{
+    filter: blur(100%);
+    transform: scale(1.04);
 }

@@ -5,17 +5,22 @@
     src: url('./fonts/Vazir.woff');
     src: url('./fonts/Vazir.woff2');
 }
+@font-face {
+    font-family: 'iranyekan';
+     src: url('./fonts/iranyekanwebmediumfanum.ttf');
+}
 body{
-    font-family: 'vazir' !important;
+    font-family: 'iranyekan' !important;
     background-color: #1C1D2F !important;
     color: #fff !important;
 }
-h1,h2,h3,h4,h5,h6,a{
-    font-weight: 700 !important;
-
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500 !important;
 }
+
 ::selection{
     background-color: #9F536A;
+    color: #fff;
 }
 p,span,div,section{font-size: 14px !important;}
 h5{font-size: 16px !important;}

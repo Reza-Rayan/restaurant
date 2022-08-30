@@ -3,9 +3,13 @@
 }
 
 .backBtn {
-    border: 2px solid #9F536A !important;
+    border: 2px solid #665573 !important;
     border-radius: 20px !important;
+    font-size: 16px !important;
+    margin-bottom: 70px;
+    box-sizing: border-box;
 }
 .backBtn:hover{
+    border: 2px solid #9F536A !important;
     background-color: #9F536A !important;
 }

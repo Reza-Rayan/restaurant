@@ -1,0 +1,12 @@
+p{
+    line-height: 40px;
+}
+.head-title{
+    border-bottom: 2px solid #eeeeee50;
+    padding-bottom: 8px;
+}
+.head-title    span{
+    font-size: 26px !important;
+    border-bottom: 2px solid #FDB361;
+    padding-bottom: 4px;
+}

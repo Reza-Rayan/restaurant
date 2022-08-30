@@ -1,0 +1,24 @@
+.product-card h4{
+    color: #FDB361;
+    font-size: 20px !important;
+}
+.product-card span{
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+.details{
+    width: 75% !important;
+}
+.price{
+    font-size: 20px !important;
+    margin: auto !important;
+    width: 20% !important;
+    color: #FDB361 !important;
+}
+
+
+@media (max-width:576px) {
+    .price{
+        font-size: 16px !important;
+    }
+}

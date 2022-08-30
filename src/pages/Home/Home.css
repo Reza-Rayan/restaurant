@@ -10,24 +10,35 @@
     text-align: justify;
 }
 a.goto-menu{
-    border: 2px solid #9F536A;
+    border: 2px solid #665573;
     border-radius: 20px;
     transition-duration: .3s;
     transition-timing-function: ease-out;
     overflow: hidden;
 }
-a.goto-contact{}
 a.goto-menu:hover{
-    background-color: #9F536A;
-    border: 2px solid #9F536A;
+    background-color: #665573;
+    border: 2px solid #665573;
+    transform: scale(1.1);
+    transition: all .2s;
+}
+a.goto-contact{
+    background-color: #665573;
+    border-radius: 20px;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    overflow: hidden;
+}
+a.goto-contact:hover{
+    background-color: transparent;
+    border: 2px solid #665573;
     transform: scale(1.1);
     transition: all .2s;
 }
 
-
 /* responsive styles  */
-@media (max-width:576px) {
+@media (max-width:900px) {
     .hum-img{
-        width: 100%;
+      width: 0% !important;
     }
 }
