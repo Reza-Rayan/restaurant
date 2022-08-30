@@ -1,0 +1,18 @@
+.header-title{
+    width: 93% !important;
+    margin: auto !important;
+}
+.header-title {
+    background-color: #9F536A;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px #eeeeee30;
+}
+.header-title::selection{
+    background-color: #FDB361;
+}
+@media (max-width:576px) {
+    .header-title h1{
+        font-size: 22px !important;
+    }
+}

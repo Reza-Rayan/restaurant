@@ -1,0 +1,33 @@
+.title{
+    color: #FDB361;
+    font-size: 34px !important;
+}
+.home{
+    align-items: center;
+}
+.text-data{
+    line-height: 40px;
+    text-align: justify;
+}
+a.goto-menu{
+    border: 2px solid #9F536A;
+    border-radius: 20px;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    overflow: hidden;
+}
+a.goto-contact{}
+a.goto-menu:hover{
+    background-color: #9F536A;
+    border: 2px solid #9F536A;
+    transform: scale(1.1);
+    transition: all .2s;
+}
+
+
+/* responsive styles  */
+@media (max-width:576px) {
+    .hum-img{
+        width: 100%;
+    }
+}

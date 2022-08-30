@@ -1,0 +1,15 @@
+.categoryCard{
+    border: 2px solid #FDB361;
+    border-radius: 20px;
+    width: 90%;
+}
+.categoryCard h3{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 100%;
+    font-size: 24px !important;
+}
+.categoryCard  img{
+    justify-content: end;
+}

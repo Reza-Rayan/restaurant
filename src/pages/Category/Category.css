@@ -1,0 +1,11 @@
+.menu-title {
+    width: 90% !important;
+}
+
+.backBtn {
+    border: 2px solid #9F536A !important;
+    border-radius: 20px !important;
+}
+.backBtn:hover{
+    background-color: #9F536A !important;
+}
