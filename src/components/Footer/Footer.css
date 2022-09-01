@@ -5,7 +5,11 @@
     width: 100%;
     bottom: 0;
 }
-.icons :hover{
-    filter: blur(100%);
+.icons a{
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+}
+.icons a:hover{
+    filter: brightness(.8);
     transform: scale(1.04);
 }

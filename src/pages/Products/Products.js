@@ -4,6 +4,8 @@ import { Link, useParams } from 'react-router-dom'
 import Categories from '../../Categories';
 import ProductCard from '../../components/productCard/ProductCard';
 import Footer from '../../components/Footer/Footer'
+//adding icon
+import back from '../../assets/arrow.svg'
 
 const Products = () => {
     const { name } = useParams();
@@ -27,7 +29,10 @@ const Products = () => {
                 </div>
 
                 <div className='d-flex justify-content-center' >
-                    <Link to='/categories' className='btn text-center backBtn px-5 mx-auto mt-5 text-center' >بازگشت</Link>
+                    <Link to='/categories' className='btn text-center backBtn px-5 mx-auto mt-5 text-center' >
+                        بازگشت
+                        <img src={back} width={20} height={12} className="me-1" />
+                        </Link>
                 </div>
             </div>
             <Footer />

@@ -4,7 +4,7 @@ import './ProductCard.css'
 
 const ProductCard = ({ title, description, price }) => {
   return (
-    <Row className='product-card my-2  border-bottom py-3'>
+    <Row className='product-card my-2 mx-auto  border-bottom py-3'>
       <div className='details'>
         <h4>{title}</h4>
         <span>{description}</span>

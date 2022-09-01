@@ -13,3 +13,9 @@
     border: 2px solid #9F536A !important;
     background-color: #9F536A !important;
 }
+
+@media (max-width:576px) {
+    .category-page{
+        margin: 0 10px !important;
+    }
+}

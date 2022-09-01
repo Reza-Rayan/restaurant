@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 //adding components
 import Router from './routes'
+import Footer from "./components/Footer/Footer";
 import LoadingScreen from "./LoadingScreen";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
             //     <LoadingScreen />
             //   )} */}
             <Router/>
+            <Footer />
         </div>
     )
 }

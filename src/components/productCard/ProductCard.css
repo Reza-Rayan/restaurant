@@ -21,4 +21,11 @@
     .price{
         font-size: 16px !important;
     }
+    .product-card{
+        box-shadow: 0 4px 8px #50505030 !important;
+        border-radius: 20px;
+        background-color: #21212150;
+        width: 98% !important;
+        box-shadow: 0 0 10px #eeeeee10 !important;
+    }
 }

@@ -22,7 +22,7 @@ const Category = () => {
   })
   return (
     <div>
-      <Row className='w-100'>
+      <Row className='w-100 mx-auto category-page'>
         <HeaderTitle headerTitle='دسته بندی منو' className="menu-title container mt-3" />
 
         {categoriesCards}
