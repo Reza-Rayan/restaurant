@@ -1,29 +1,40 @@
-.categoryCard{
+.categoryCard {
     border: 2px solid #FDB361;
     border-radius: 20px;
     width: 90%;
     transition-duration: .2s;
     transition-timing-function: ease-out;
 }
-.categoryCard h3{
+
+.categoryCard h3 {
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: center;
     height: 100%;
     font-size: 24px !important;
 }
-.categoryCard  img{
+
+.categoryCard img {
     justify-content: end;
 }
-.categoryCard:hover{
+
+.categoryCard:hover {
     background-color: #FDB361;
     transform: translateX(-10px);
     box-shadow: 4px 0 6px #eeeeee30;
     color: #212121;
     transition: all .2s;
 }
+
+.menu-text {
+    margin-top: 30px;
+    font-size: 12px !important;
+}
+
+/* mobile styles  */
 @media (max-width:576px) {
-    .categoryCard h3{
+    .categoryCard h3 {
         font-size: 18px !important;
-    }  
+        margin-top: 10px;
+    }
 }

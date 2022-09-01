@@ -10,11 +10,12 @@ import Footer from '../../components/Footer/Footer'
 
 
 const Category = () => {
+  
   const categoriesCards = Categories.map((item) => {
     return (
       <Col lg={6} md={6} className="mt-2" >
         <CategoryCard
-          key={item._id}
+          key={item.id}
           name={item.name}
           image={item.image} />
       </Col>

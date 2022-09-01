@@ -6,7 +6,9 @@
     background-color: #665573;
     border-radius: 10px;
     box-sizing: border-box;
-    box-shadow: 0 4px 6px #eeeeee30;
+    box-shadow: 0 4px 6px #eeeeee20;
+    box-sizing: border-box;
+    margin: auto inherit !important;
 }
 .header-title::selection{
     background-color: #FDB361;
