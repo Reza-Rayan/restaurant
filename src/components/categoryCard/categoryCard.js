@@ -13,7 +13,7 @@ const CategoryCard = ({ image, name }) => {
                 <Link to={`/categories/${name}`}>
                     <div>
                         <h3 >{name}</h3>
-                        <div className='text-center menu-text'>مشاهده منو
+                        <div className='text-center menu-text'> مشاهده منو
                             <img src={arrow} width={12} className="mx-1" />
                         </div>
                     </div>

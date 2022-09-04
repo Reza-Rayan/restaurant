@@ -15,7 +15,8 @@ const Router = () => {
                 <Route path="/categories" element={<Category />} />
                 <Route path="/categories/:name" element={<Products />} />
                 <Route path="/contact-us" element={<Contact />} />
-                <Route path="*" element={<Page404 />} />
+
+            <Route path="*" element={<Page404 />} />
             </Routes>
         </div>
     )

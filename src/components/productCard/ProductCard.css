@@ -1,3 +1,6 @@
+.product-card{
+    padding: 0 1rem;
+}
 .product-card h4{
     color: #FDB361;
     font-size: 20px !important;
@@ -14,6 +17,7 @@
     margin: auto !important;
     width: 20% !important;
     color: #FDB361 !important;
+    text-align: end;
 }
 
 

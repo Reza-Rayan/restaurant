@@ -33,3 +33,5 @@ a{
     color: inherit !important;
     text-decoration: none !important;
 }
+
+img {pointer-events: none;}

@@ -1,23 +1,27 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import './App.css'
 //adding components
 import Router from './routes'
 import Footer from "./components/Footer/Footer";
-import LoadingScreen from "./LoadingScreen";
 
 const App = () => {
-    const [loading, setLoading] = useState(true)
-    useEffect(() => {
-        setTimeout(() => setLoading(false), 6000)
-    }, [])
+
+
+    const loading = () => {
+        setTimeout(() => {
+            var x = document.getElementById('loadingContainer')
+            x.style.display = "none";
+        }, 2000)
+    }
     return (
-        <div >
-             {/* {loading === false ? (
+        <div onLoad={loading}>
+            <div className="loader-container" id="loadingContainer">
+                <div className="spinner"></div>
+            </div>
             <Router />
-            // ) : (
-            //     <LoadingScreen />
-            //   )} */}
-            <Router/>
             <Footer />
+
+
         </div>
     )
 }

@@ -11,7 +11,7 @@ const Footer = () => {
                 <img src={location} className="mx-2 mb-1" width={20} />
                 آدرس: تهران، خیابان کارگر شمالی، ...
             </div>
-            <div className='d-inline-block' style={{float:'left',}}>
+            <div className='d-inline-block' style={{float:'left',marginLeft:'30px'}}>
                 <a className='d-inline-block mx-2 w-25 ' href='#'>
                     <img src={instagram} width={20} className="d-flex justify-content-end" />
                 </a>

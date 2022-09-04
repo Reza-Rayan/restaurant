@@ -9,13 +9,14 @@
     margin-bottom: 70px;
     box-sizing: border-box;
 }
-.backBtn:hover{
+
+.backBtn:hover {
     border: 2px solid #9F536A !important;
     background-color: #9F536A !important;
 }
 
 @media (max-width:576px) {
-    .category-page{
+    .category-page {
         margin: 0 10px !important;
     }
 }
