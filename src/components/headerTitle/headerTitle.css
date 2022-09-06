@@ -3,16 +3,14 @@
     margin: auto  !important;
 }
 .header-title {
-    background-color: #665573;
+    background-color: #055f5f;
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 0 4px 6px #eeeeee20;
     box-sizing: border-box;
     margin: auto inherit !important;
 }
-.header-title::selection{
-    background-color: #FDB361;
-}
+
 @media (max-width:576px) {
     .header-title h1{
         font-size: 22px !important;

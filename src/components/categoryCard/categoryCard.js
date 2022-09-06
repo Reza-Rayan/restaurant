@@ -22,7 +22,7 @@ const CategoryCard = ({ image, name }) => {
 
             <Col>
                 <Link to={`/categories/${name}`} className='d-flex justify-content-center'>
-                    <img src={image} width={80} height={80} />
+                    <img src={image} width={110} height={80} />
                 </Link>
             </Col>
         </Row>

@@ -2,8 +2,8 @@
     padding: 0 1rem;
 }
 .product-card h4{
-    color: #FDB361;
     font-size: 20px !important;
+    font-weight: 700;
 }
 .product-card span{
     font-size: 13px !important;

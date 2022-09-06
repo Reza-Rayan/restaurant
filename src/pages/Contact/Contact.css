@@ -12,3 +12,21 @@ p {
     border-bottom: 2px solid #FDB361;
     padding-bottom: 4px;
 }
+
+.location iframe {
+    width: 100%;
+    height: 320px;
+    margin: auto !important;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px #eeeeee30;
+}
+.contact-phone a{
+    font-size: 18px;
+}
+@media (max-width:576px) {
+    .head-phone{
+        margin-top: 20px;
+        text-align: center;
+    }
+}

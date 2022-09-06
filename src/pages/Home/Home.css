@@ -1,6 +1,24 @@
+.hum-img{
+    background-image: url('../../assets/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    min-height: 520px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes rotating {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.hum-img img{
+    animation: rotating 20s infinite;
+}
 .title {
     color: #FDB361;
-    font-size: 34px !important;
+    font-size: 36px !important;
 }
 
 .home {
@@ -10,10 +28,12 @@
 .text-data {
     line-height: 40px;
     text-align: justify;
+    font-size: 18px !important;
+    font-weight: 400 !important;
 }
 
 a.goto-menu {
-    border: 2px solid #FDB361;
+    border: 2px solid #055f5f;
     border-radius: 20px;
     transition-duration: .3s;
     transition-timing-function: ease-out;
@@ -21,16 +41,16 @@ a.goto-menu {
 }
 
 a.goto-menu:hover {
-    color: #212121 !important;
-    background-color: #FDB361;
-    border: 2px solid #FDB361;
+    /* color: #212121 !important; */
+    background-color: #055f5f;
+    border: 2px solid #055f5f;
     transform: scale(1.1);
     transition: all .2s;
 }
 
 a.goto-contact {
-    background-color: #FDB361;
-    color: #212121 !important;
+    background-color: #055f5f;
+    box-shadow: 0 4px 8px #eeeeee20;
     border-radius: 20px;
     transition-duration: .3s;
     transition-timing-function: ease-out;
@@ -40,30 +60,43 @@ a.goto-contact {
 a.goto-contact:hover {
     background-color: transparent;
     color: #fff !important;
-    border: 2px solid #FDB361;
+    border: 2px solid #055f5f;
     transform: scale(1.1);
     transition: all .2s;
 }
 
-
 /* responsive styles  */
 @media (max-width:900px) {
     .hum-img {
-        width: 0% !important;
+       display: none;
     }
-
+    .text-data{
+        display: none;
+    }
     .btn-container .btn {
         width: 100%;
         margin: 10px auto !important;
     }
-}
-
-@media (max-width:576px) {
     a.goto-contact {
         margin-bottom: 30px !important;
     }
 
     .btn-container .btn:hover {
         transform: none !important;
+    }
+    .hum-img-Rza{
+        display: flex;
+        justify-content: center;
+    }
+    .hum-img-Rza img{
+        animation: rotating 20s infinite;
+    }
+}
+
+@media (min-width:576px) {
+
+    .hum-img-Rza{
+        display: none !important;
+        width: 0% !important;
     }
 }
