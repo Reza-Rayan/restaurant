@@ -9,6 +9,9 @@
     justify-content: center;
     align-items: center;
 }
+h2.title{
+    font-size: 24px !important;
+}
 @keyframes rotating {
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
@@ -87,6 +90,8 @@ a.goto-contact:hover {
     .hum-img-Rza{
         display: flex;
         justify-content: center;
+        width: 200px;
+        margin: auto;
     }
     .hum-img-Rza img{
         animation: rotating 20s infinite;

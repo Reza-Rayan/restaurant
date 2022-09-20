@@ -24,6 +24,10 @@ p {
 .contact-phone a{
     font-size: 18px;
 }
+.contact-phone a:hover{
+        color: #FDB361 !important;
+        transition: all .5s;
+}
 @media (max-width:576px) {
     .head-phone{
         margin-top: 20px;

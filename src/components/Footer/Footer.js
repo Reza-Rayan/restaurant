@@ -1,17 +1,16 @@
 import React from 'react'
 import './Footer.css'
-import location from '../../assets/location.svg'
 import instagram from '../../assets/instagram.png'
 import phone from '../../assets/call.png'
 
 const Footer = () => {
     return (
         <section className=' mt-5 footer py-3 mx-auto    pe-5 '>
-            <div className='d-inline-block w-75' >
-                <a href='https://maps.google.com/maps?q=35.7414248%2C51.8180652&z=17&hl=en' target="_blank">
-                    <img src={location} className="mx-2 mb-1" width={20} />
-                </a>
-                آدرس: تهران، خیابان کارگر شمالی، ...
+            <div className='d-inline-block w-75 message ' >
+                برای دیدن لوکیشن رستوران ما 
+               <a href='https://maps.google.com/maps?q=35.7414248%2C51.8180652&z=17&hl=en' 
+                className='d-inline-block mx-2 click-to-loc' target='_blank'>اینجا</a> 
+               کلیک کنید.
             </div>
             <div className='d-inline-block' style={{ float: 'left', marginLeft: '30px' }}>
                 <a className='d-inline-block mx-2 w-25 ' href='#'>

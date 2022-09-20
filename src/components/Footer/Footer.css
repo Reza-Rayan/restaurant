@@ -4,6 +4,10 @@
     position: fixed;
     width: 100%;
     bottom: 0;
+    margin-top: 20px !important;
+}
+.message{
+    font-size: 11px !important;
 }
 .icons a{
     transition-duration: .2s;
@@ -12,4 +16,7 @@
 .icons a:hover{
     filter: brightness(.8);
     transform: scale(1.04);
+}
+.click-to-loc {
+    color: #FDB361 !important;
 }

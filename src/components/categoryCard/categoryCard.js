@@ -14,7 +14,7 @@ const CategoryCard = ({ image, name }) => {
                     <div>
                         <h3 >{name}</h3>
                         <div className='text-center menu-text'> مشاهده منو
-                            <img src={arrow} width={12} className="mx-1" />
+                            <img src={arrow} width={12} className="mx-1" alt="مشاهده منو" />
                         </div>
                     </div>
                 </Link>
@@ -22,7 +22,7 @@ const CategoryCard = ({ image, name }) => {
 
             <Col>
                 <Link to={`/categories/${name}`} className='d-flex justify-content-center'>
-                    <img src={image} width={110} height={80} />
+                    <img src={image} width={110} height={80}  />
                 </Link>
             </Col>
         </Row>

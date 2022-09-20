@@ -8,6 +8,7 @@
 .product-card span{
     font-size: 13px !important;
     font-weight: 400 !important;
+    color: #eee;
 }
 .details{
     width: 75% !important;
@@ -20,7 +21,6 @@
     text-align: end;
 }
 
-
 @media (max-width:576px) {
     .price{
         font-size: 16px !important;
@@ -31,5 +31,10 @@
         background-color: #21212150;
         width: 98% !important;
         box-shadow: 0 0 10px #eeeeee10 !important;
+    }
+    .product-card span{
+        font-size: 11px !important;
+        font-weight: 400 !important;
+        color: #eee;
     }
 }
